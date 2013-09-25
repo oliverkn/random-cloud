@@ -5,7 +5,7 @@ import java.net.InetAddress;
 public class ClientConfig
 {
 	private InetAddress serverAddress;
-	private int port;
+	private int serverPort;
 
 	private String user, password;
 
@@ -19,14 +19,14 @@ public class ClientConfig
 		this.serverAddress = serverAddress;
 	}
 
-	public int getPort()
+	public int getServerPort()
 	{
-		return port;
+		return serverPort;
 	}
 
 	protected void setServerPort(int port)
 	{
-		this.port = port;
+		this.serverPort = port;
 	}
 
 	public String getUser()

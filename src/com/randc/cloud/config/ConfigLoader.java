@@ -9,7 +9,7 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
-public class ConfigFactory
+public class ConfigLoader
 {
 	private static final SAXBuilder SAX_BUILDER = new SAXBuilder();
 

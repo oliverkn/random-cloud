@@ -1,5 +1,7 @@
 package com.randc.cloud.connection;
 
+import java.io.IOException;
+
 public abstract class AbstractServer
 {
 	protected int port;
@@ -9,9 +11,9 @@ public abstract class AbstractServer
 		this.port = port;
 	}
 
-	public abstract void start();
+	public abstract void start() throws IOException;
 
-	public abstract void shutDown();
+	public abstract void shutDown() throws IOException;
 
-	public abstract AbstractConnection accept();
+	public abstract AbstractConnection accept() throws IOException;
 }
