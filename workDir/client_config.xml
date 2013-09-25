@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfig>
+	<ServerAddress>172.16.15.15</ServerAddress>
+	<ServerPort>15000</ServerPort>
+	<User></User>
+	<Password></Password>
+</clientConfig>
